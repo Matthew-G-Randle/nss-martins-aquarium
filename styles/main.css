@@ -1,0 +1,36 @@
+.fish {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border: 1px solid yellow; /* Add border to create a box around each fish */
+    padding: 10px; /* Add some padding inside the box */
+    max-width: 600px; /* Adjust the maximum width as needed */
+  }
+  
+  .fish__image {
+    width: 200px;
+    height: auto;
+    margin-right: 20px;
+  }
+
+  .soldierFishCard {
+    border: 1px solid green;
+    display:flex;
+    margin-bottom: 20px;
+    padding: 10px; /* Add some padding inside the box */
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin-bottom: 20px;
+  }
+
+  .demonFishCard {
+    border: 1px solid red;
+    display:flex;
+    margin-bottom: 20px;
+    padding: 10px; /* Add some padding inside the box */
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin-bottom: 20px;
+  }
+  
+  .fish__info {
+    flex: 1;
+  }
